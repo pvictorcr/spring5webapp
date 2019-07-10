@@ -53,6 +53,9 @@ public class Author {
 		this.books = books;
 	}
 
+	public Author() {
+		
+	}
 	public Author(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
